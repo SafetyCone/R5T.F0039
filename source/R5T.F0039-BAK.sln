@@ -9,12 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependenc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.NG0004", "..\..\R5T.NG0004\source\R5T.NG0004\R5T.NG0004.csproj", "{2EBD411E-E009-4D9F-8853-D946D6FD03EE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.F0039.F001", "R5T.F0039.F001\R5T.F0039.F001.csproj", "{A1FC59C9-0327-4E08-9590-125841EFF5CD}"
-EndProject
 Global
-	GlobalSection(NestedProjects) = preSolution
-		{2EBD411E-E009-4D9F-8853-D946D6FD03EE} = {E6E1DDCA-5B24-4ADC-ACD9-FD27FB4343F9}
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -28,13 +23,12 @@ Global
 		{2EBD411E-E009-4D9F-8853-D946D6FD03EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EBD411E-E009-4D9F-8853-D946D6FD03EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EBD411E-E009-4D9F-8853-D946D6FD03EE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1FC59C9-0327-4E08-9590-125841EFF5CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1FC59C9-0327-4E08-9590-125841EFF5CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1FC59C9-0327-4E08-9590-125841EFF5CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1FC59C9-0327-4E08-9590-125841EFF5CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EBD411E-E009-4D9F-8853-D946D6FD03EE} = {E6E1DDCA-5B24-4ADC-ACD9-FD27FB4343F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5DFB6E52-3E3F-4202-9D4B-4C158BE6B181}
